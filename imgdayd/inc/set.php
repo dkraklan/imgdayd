@@ -1,0 +1,61 @@
+<?php
+
+	// stop direct access
+		if(!defined('cfih') or !cfih) exit("Direct access not permitted.");
+
+	// settings
+		$settings['SET_PASSWORD'] = '02a819681dda439d4be6c4668f8619c2';
+	$settings['SET_USERNAME'] = 'admin';
+	$settings['SET_CONTACT'] = 'your@email.com';
+	$settings['SET_SITEURL'] = 'http://imgdayd.theimperialarmy.win/';
+	$settings['SET_TITLE'] = 'CF Image Host';
+	$settings['SET_SLOGAN'] = 'Free CF Image Host';
+	$settings['SET_MAXSIZE'] = 1048576;
+	$settings['SET_IMG_ROW_NO'] = 4;
+	$settings['SET_IMG_ROWS'] = 2;
+	$settings['SET_COPYRIGHT'] = 'Copyright © - All Rights Reserved.';
+	$settings['SET_THEME'] = 'day';
+	$settings['SET_SALTING'] = '2bbb9fba00092bb17f236892a7fc92c3';
+	$settings['SET_MOD_REWRITE'] = 0;
+	$settings['SET_ADMIN_MENU'] = 0;
+	$settings['SET_MAX_BANDWIDTH'] = 1024;
+	$settings['SET_VERSION'] = 1.65;
+	$settings['SET_GOOGLE_ANALYTICS'] = '';
+	$settings['SET_GOOGLE_ADS'] = '';
+	$settings['SET_GOOGLE_CHANNAL'] = '';
+	$settings['SET_BANDWIDTH_RESET'] = 'm';
+	$settings['SET_MAX_UPLOAD'] = 5;
+	$settings['SET_AUTO_DELETED'] = 0;
+	$settings['SET_AUTO_DELETED_TIME'] = 60;
+	$settings['SET_AUTO_DELETED_JUMP'] = 'm';
+	$settings['SET_HIDE_CONTACT'] = 1;
+	$settings['SET_HIDE_TOS'] = 1;
+	$settings['SET_HIDE_GALLERY'] = 1;
+	$settings['SET_HIDE_FAQ'] = 1;
+	$settings['SET_HIDE_SEARCH'] = 1;
+	$settings['SET_EMAIL_REPORT'] = 0;
+	$settings['SET_ALLOW_REPORT'] = 1;
+	$settings['SET_SHORT_URL_ON'] = 1;
+	$settings['SET_PRIVATE_IMG_ON'] = 1;
+	$settings['SET_DIS_UPLOAD'] = 0;
+	$settings['SET_LANGUAGE'] = 'english';
+	$settings['SET_SHORT_URL_API'] = 'b54';
+	$settings['SET_SHORT_URL_API_URL'] = '';
+	$settings['SET_SHORT_URL_PASS'] = '';
+	$settings['SET_SHORT_URL_USER'] = '';
+	$settings['SET_WATERMARK'] = 0;
+	$settings['SET_WATERMARK_TEXT'] = 0;
+	$settings['SET_WATERMARK_PLACED'] = 1;
+	$settings['SET_WATERMARK_IMAGE'] = '';
+	$settings['SET_IMAGE_WIDGIT'] = 1;
+	$settings['SET_NODUPLICATE'] = 0;
+	$settings['SET_RESIZE_IMG_ON'] = 1;
+	$settings['SET_ADDTHIS'] = '';
+	$settings['SET_LAST_BACKUP_BANDWIDTH'] = 0;
+	$settings['SET_LAST_BACKUP_IMAGE'] = 1471984798;
+	$settings['SET_HIDE_FEED'] = 1;
+	$settings['SET_HIDE_SITEMAP'] = 1;
+	$settings['SET_BACKUP_AUTO_ON'] = 1;
+	$settings['SET_BACKUP_AUTO_TIME'] = 1;
+	$settings['SET_BACKUP_AUTO_USE'] = 1;
+	$settings['SET_BACKUP_AUTO_REBUILD'] = 1;

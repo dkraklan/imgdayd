@@ -1,0 +1,47 @@
+
+/*************************
+	admin menu bar
+*************************/
+#admin_bar{
+	/*background: #2f2f31 none repeat scroll 0 0;
+	background:-moz-linear-gradient(top,#4D4D4D 0,#343434 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#4D4D4D),color-stop(100%,#343434));
+	display:block;
+	line-height: 21px;
+	text-shadow:none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index:9999;
+	*/
+}
+#admin_bar .title
+{
+	/*color: #fff;font-size: 20px;left: 10px;position: absolute;text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2), -1px -1px 0 rgba(0, 0, 0, 0.2);top: 3px;
+	display:none;*/
+	background-color: #303032;
+    color: #fff;
+    height: 40px;
+}
+#admin_bar ul
+{
+	font-size: 14px;height: 25px;list-style: none outside none;margin: 0;padding: 3px 20px 2px;width: auto;
+	float: left;
+}
+#admin_bar li {float: right;margin: 0;padding:0px 10px 0px 0px;background:none}
+#admin_bar a 
+{
+	color: #dedede;
+    font-family: fantasy,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 2px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+#admin_bar a:hover
+{
+	background-color: #414141;
+    border-top: 2px solid #ffb900;
+   
+}

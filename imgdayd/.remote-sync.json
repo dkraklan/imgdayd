@@ -1,0 +1,16 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": true,
+  "hostname": "ftp.theimperialarmy.win",
+  "port": "21",
+  "target": "public_html/imgdaydv1",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "theimper",
+  "password": "H0stAdm1n",
+  "watch": []
+}
